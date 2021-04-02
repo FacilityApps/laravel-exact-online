@@ -26,4 +26,14 @@ return [
      * The Client country code
      */
      'exact_multi_user' => env('EXACT_MULTI_USER', false),
+    
+    /**
+     * The Authorize route
+     */
+    'exact_authorize' => env('EXACT_AUTHORIZE', 'exact.authorize'),
+    
+    /**
+     * The Callback route
+     */
+    'exact_callback' => env('EXACT_CALLBACK', 'exact.callback'),
 ];
