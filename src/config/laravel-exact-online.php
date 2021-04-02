@@ -36,4 +36,9 @@ return [
      * The Callback route
      */
     'exact_callback' => env('EXACT_CALLBACK', 'exact.callback'),
+    
+    /**
+     * Enables the automatic register of routes
+     */
+    'exact_register_routes' => env('EXACT_REGISTER_ROUTES', true),
 ];
